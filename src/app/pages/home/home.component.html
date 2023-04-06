@@ -1,1 +1,18 @@
-<p>Página home</p>
+<div class="home-container">
+	<h1>Veja o que estão compartilhando</h1>
+	<div *ngIf="moments.length > 0 else noMoments">
+		<div class="moments-container">
+			<div class="moment" *ngFor="let moment of moments">
+				<img src="{{ baseApiUrl }}uploads/{{ moment.image }}" alt="{{ moment.title }}">
+				<h3>{{ moment.title }}</h3>
+				<p class="date">Em: {{ moment.created_at }}</p>
+				<p>Comentários: {{ moment.comments!.length }}</p>
+				<p><a routerLink="moments/{{ moment.id }}">Detalhes</a></p>
+			</div>
+		</div>
+	</div>
+	<ng-template #noMoments>
+		<h1>Não há momentos cadastrados, seja o primeiro a compartilhar seu momento!</h1>
+		<p><a routerLink="/moments/new">Cadastrar novo momento</a></p>
+	</ng-template>
+</div>
