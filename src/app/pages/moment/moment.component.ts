@@ -13,7 +13,7 @@ import { environment } from 'src/enviroments/environment'
   styleUrls: ['./moment.component.css']
 })
 export class MomentComponent implements OnInit {
-	moment?: any
+	moment?: Moment
 	baseApiUrl = environment.baseApiUrl
 	
 	faTimes = faTimes
