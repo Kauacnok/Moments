@@ -1,27 +1,47 @@
-# Moments
+<p align='center'> 
+	<h1 align='center'>Moments</h1>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.3.
+## 🧪 Tecnologias
 
-## Development server
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Frontend
+- [Angular]
+- [Css]
+- [Typescript]
+- [Fortawesome icons]
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Como executar
 
-## Build
+Clone o projeto e acesse a pasta do mesmo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+$ git clone https://github.com/Kauacnok/Moments.git
 
-## Running unit tests
+$ cd moments
+$ npm i (para instalar as dependências)
+$ ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
 
-## Running end-to-end tests
+Também é necessário fazer o setup da API, a API também foi feita pelo Matheus Basttisti você pode conferir como fazer o setup no link abaixo:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+[Setup API Adonis](https://youtu.be/xTCBaGeYTck)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 💻 Projeto
+
+O Moments é um site que simula que é uma rede social para compartilhar seus momentos especiais, para as pessoas, também pode comentar em outros momentos de outras pessoas e editar/deletar seu momento. 
+
+O projeto foi desenvolvido no Curso de Angular do Matheus Basttisti do hora de codar
+Playlist do projeto curso de Angular Matheus Battisti hora de codar: https://youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw
+
+## 📖 O que eu aprendi
+
+Aprendi como funciona o Angular, acredito que não tive muita dificuldade para aprender o Angular por já saber sobre o React, claro que tem suas diferenças como a estrutura de arquivos, o router de cada um, o angular também tem a ideia de services e trabalha com classes do Javascript, vou fazer mais projetos no futuro com o Angular para fixar o conhecimento e explorar o framework cada vez mais.
+
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Kauacnok/Moments/blob/main/license) para mais detalhes.
