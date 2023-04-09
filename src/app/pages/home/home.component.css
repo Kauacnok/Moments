@@ -68,3 +68,23 @@ a {
 a:hover {
 	background-color: #EFEFEF;
 }
+
+@media (max-width: 768px) {
+	.home-container h1 {
+		font-size: 1.1em;
+	}
+
+	.moments-container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.moment {
+		width: 50%;
+	}
+
+	.search-container form {
+		width: 70%;
+	}
+}

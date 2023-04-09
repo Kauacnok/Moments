@@ -15,3 +15,10 @@ footer span {
 	font-weight: bold;
 	color: #dec129
 }
+
+@media (max-width: 768px) {
+	footer h3 {
+		font-size: 1.1em;
+		text-align: center;
+	}
+}

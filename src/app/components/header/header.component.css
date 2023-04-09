@@ -40,3 +40,13 @@ nav {
 #add a:hover {
 	background-color: #EFEFEF;
 }
+
+@media (max-width: 768px) {
+	nav {
+		flex-direction: column;
+	}
+
+	.brand {
+		margin-bottom: 1em;
+	}
+}

@@ -68,3 +68,17 @@ img {
 .author span {
 	font-weight: bold;
 }
+
+@media (max-width: 768px) {
+	img {
+		width: 50vw;
+	}
+
+	.comment-form {
+		width: 80vw;
+	}
+
+	.remove-btn {
+		margin-top: 1em;
+	}
+}

@@ -107,3 +107,9 @@ a fa-icon {
 	color: #FFF;
 	background-color: #DC3545;
 }
+
+@media (max-width: 768px) {
+	form {
+		width: 80%;
+	}
+}
