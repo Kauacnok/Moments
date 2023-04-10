@@ -40,6 +40,13 @@ form {
 	padding: 1.2em;
 	color: #777;
 	font-size: 0.8em;
+	resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+	outline: none;
+	border: 2px solid #DEC129;
 }
 
 input[type="submit"] {
